@@ -597,7 +597,7 @@ class HTTPUploadHandler(BaseHTTPServer.BaseHTTPRequestHandler):
 
     def html(self, page):
         """
-        page can be "main", "success", or "error"
+        page can be "main", "success", "error", or "invalid"
         returns an html page (in the appropriate language) as a string
         """
         
