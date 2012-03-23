@@ -597,7 +597,7 @@ class HTTPUploadHandler(BaseHTTPServer.BaseHTTPRequestHandler):
 
     def html(self, page):
         """
-        page can be "main", "success", "error", or "invalid"
+        page can be "main", "success", or "error"
         returns an html page (in the appropriate language) as a string
         """
         
@@ -678,10 +678,10 @@ class HTTPUploadHandler(BaseHTTPServer.BaseHTTPRequestHandler):
                 
             # -- Stop uploading of index.html
             if filename.lower() == "index.html" or filename.lower() == "index.htm":
-		self.wfile.write(self.html("invalid").encode('utf-8'))
-		self.log_message("upload of index.html attempted")
-		return
-				
+                self.wfile.write(self.html("invalid").encode('utf-8'))
+                self.log_message("upload of index.html attempted")
+                return
+
             localpath = os.path.join(directory, filename).encode('utf-8')
             root, ext = os.path.splitext(localpath)
             i = 1
