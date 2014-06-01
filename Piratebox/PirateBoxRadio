@@ -1,0 +1,21 @@
+packages needed:
+    - libshout
+    - ices
+    - libtheora
+    - libspeex
+    - alsa-lib
+    - kmod-sound-core
+    - kmod-input-core
+    - kernel_3.10
+    - icecast
+    - libxslt
+    - shadow-useradd
+    - shadow-groupadd
+    - shadow-common
+    - shadow
+    - shadow groups
+    - libxml2_2.9
+
+probably not enough space on device, so let's install it to ext
+
+opkg install -d ext PACKAGE

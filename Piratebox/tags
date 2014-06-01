@@ -1,0 +1,55 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+DroopyFieldStorage	droopy.py	/^class DroopyFieldStorage(cgi.FieldStorage):$/;"	c
+HTTPUploadHandler	droopy.py	/^class HTTPUploadHandler(BaseHTTPServer.BaseHTTPRequestHandler):$/;"	c
+ThreadedHTTPServer	droopy.py	/^                         BaseHTTPServer.HTTPServer):   pass$/;"	c
+ar	droopy.py	/^ar = {"maintitle":       u"Ø¥Ø±Ø³Ø§Ù„ Ù…Ù„Ù",$/;"	v
+basename	droopy.py	/^    def basename(self, path):$/;"	m	class:HTTPUploadHandler
+config_found	droopy.py	/^    config_found = load_options()$/;"	v
+configfile	droopy.py	/^def configfile():$/;"	f
+cs	droopy.py	/^cs = {"maintitle":       u"Poslat soubor",$/;"	v
+da	droopy.py	/^da = {"maintitle":       u"Send en fil",$/;"	v
+de	droopy.py	/^de = {"maintitle":       "Datei senden",$/;"	v
+directory	droopy.py	/^directory = os.curdir$/;"	v
+do_GET	droopy.py	/^    def do_GET(self):$/;"	m	class:HTTPUploadHandler
+do_POST	droopy.py	/^    def do_POST(self):$/;"	m	class:HTTPUploadHandler
+el	droopy.py	/^el = {"maintitle":       u"Î£Ï„ÎµÎ¯Î»Îµ Î­Î½Î± Î±ÏÏ‡ÎµÎ¯Î¿",$/;"	v
+en	droopy.py	/^en = {"maintitle":       "Send a file",$/;"	v
+es	droopy.py	/^es = {"maintitle":       u"Enviar un archivo",$/;"	v
+fi	droopy.py	/^fi = {"maintitle":       u"LÃ¤hetÃ¤ tiedosto",$/;"	v
+form_field	droopy.py	/^    form_field = 'upfile'$/;"	v	class:HTTPUploadHandler
+fr	droopy.py	/^fr = {"maintitle":       u"Envoyer un fichier",$/;"	v
+gl	droopy.py	/^gl = {"maintitle":       u"Enviar un ficheiro",$/;"	v
+html	droopy.py	/^    def html(self, page):$/;"	m	class:HTTPUploadHandler
+hu	droopy.py	/^hu = {"maintitle":       u"ÃllomÃ¡ny kÃ¼ldÃ©se",$/;"	v
+id	droopy.py	/^id = {"maintitle":       "Kirim sebuah berkas",$/;"	v
+it	droopy.py	/^it = {"maintitle":       u"Invia un file",$/;"	v
+ja	droopy.py	/^ja = {"maintitle":       u"ãƒ•ã‚¡ã‚¤ãƒ«é€ä¿¡",$/;"	v
+ko	droopy.py	/^ko = {"maintitle":       u"íŒŒì¼ ë³´ë‚´ê¸°",$/;"	v
+load_options	droopy.py	/^def load_options():$/;"	f
+make_file	droopy.py	/^    def make_file(self, binary=None):$/;"	m	class:DroopyFieldStorage
+message	droopy.py	/^message = ""$/;"	v
+must_save_options	droopy.py	/^must_save_options = False$/;"	v
+nl	droopy.py	/^nl = {"maintitle":       "Verstuur een bestand",$/;"	v
+no	droopy.py	/^no = {"maintitle":       u"Send en fil",$/;"	v
+parse_args	droopy.py	/^def parse_args(cmd=None):$/;"	f
+picture	droopy.py	/^picture = None$/;"	v
+port	droopy.py	/^port = 80$/;"	v
+pt	droopy.py	/^pt = {"maintitle":       u"Enviar um ficheiro",$/;"	v
+pt_br	droopy.py	/^pt_br = {$/;"	v
+ro	droopy.py	/^ro = {"maintitle":       u"Trimite un fiÅŸier",$/;"	v
+ru	droopy.py	/^ru = {"maintitle":       u"ÐžÑ‚Ð¿Ñ€Ð°Ð²Ð¸Ñ‚ÑŒ Ñ„Ð°Ð¹Ð»",$/;"	v
+run	droopy.py	/^def run():$/;"	f
+save_options	droopy.py	/^def save_options():$/;"	f
+sk	droopy.py	/^sk = {"maintitle":       u"PoÅ¡li sÃºbor",$/;"	v
+sl	droopy.py	/^sl = {"maintitle":       u"PoÅ¡lji datoteko",$/;"	v
+sr	droopy.py	/^sr = {"maintitle":       u"PoÅ¡alji fajl",$/;"	v
+sv	droopy.py	/^sv = {"maintitle":       u"Skicka en fil",$/;"	v
+templates	droopy.py	/^templates = {"main": maintmpl, "success": successtmpl, "error": errortmpl, "invalid": invalidtmpl}$/;"	v
+tr	droopy.py	/^tr = {"maintitle":       u"Dosya gÃ¶nder",$/;"	v
+translations	droopy.py	/^translations = {"ar": ar, "cs": cs, "da": da, "de": de, "el": el, "en": en,$/;"	v
+zh_cn	droopy.py	/^zh_cn = {$/;"	v
