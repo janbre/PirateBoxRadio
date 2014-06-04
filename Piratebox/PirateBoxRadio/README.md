@@ -6,7 +6,7 @@ I haven't done any testing over prolonged time periods to see if it's stable eno
 As of now, only .ogg files is playable... that means NO MP3s!!! I might try and get MP3 working, but I have no plans for it at the moment. I support open formats and standards, so I want my PirateBox to stream music that is free in every way.
 
 
-For those of you who don't feel all that comfortable on the command line or when manually editing configuration files, or you don't want to spend the time setting it all up manually, there's a simple script that will set it all up for you. Just download the archive, extract it and place it on the USB-stick you use with your PirateBox. The archive file contains all the needed packages, a setup script, a folder for storing logs and configuration files for ices and icecast. 
+For those of you who don't feel all that comfortable on the command line or when manually editing configuration files, or you don't want to spend the time setting it all up manually, there's a simple script that will set it all up for you. Just download the archive (PirateBoxRadio.zip), extract it and place it on the USB-stick you use with your PirateBox. The archive file contains all the needed packages, a setup script, a folder for storing logs and configuration files for ices and icecast. 
 
 ---END IMPORTANT---
 
