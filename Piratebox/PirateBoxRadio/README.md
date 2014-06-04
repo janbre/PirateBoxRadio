@@ -5,9 +5,10 @@ You should consider this to be a pre-alpha, since I've just followed some tutori
 I haven't done any testing over prolonged time periods to see if it's stable enough to keep on running for hours on end. I have only tested with two connected clients so I don't know how many clients can connect and listen at the same time.
 As of now, only .ogg files is playable... that means NO MP3s!!! I might try and get MP3 working, but I have no plans for it at the moment. I support open formats and standards, so I want my PirateBox to stream music that is free in every way.
 
----END---
 
 For those of you who don't feel all that comfortable on the command line or when manually editing configuration files, or you don't want to spend the time setting it all up manually, there's a simple script that will set it all up for you. Just download the archive, extract it and place it on the USB-stick you use with your PirateBox. The archive file contains all the needed packages, a setup script, a folder for storing logs and configuration files for ices and icecast. 
+
+---END IMPORTANT---
 
 #### Using the setup script
 Log in to your PirateBox and navigate to the PirateBoxRadio-folder. If you placed it directly on the USB-stick the following command should do the trick: ```cd /mnt/usb/PirateBoxRadio```. Once there, execute the script with ```./setup.sh``` wait for it to finish and then move on to "Add some tunes" near the bottom of this tutorial.
