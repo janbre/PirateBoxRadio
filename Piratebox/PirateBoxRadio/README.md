@@ -85,7 +85,8 @@ icecast -b -c icecast.xml
 ices ices.xml
 ```
 That's it! Now you can use e.g. VLC to open the network stream http://192.168.1.1:8000/one.ogg 
-Now relax, lean back, and enjoy the melodies.
+
+Relax, lean back, and enjoy the melodies.
 
 
 Any problems, questions, complaints, interesting new profanities or anything else, drop me a PM on the forum, shoot me a mail at piratebox@crossingrubicon.eu or light a fire and hope that I notice your smoke signals. 
