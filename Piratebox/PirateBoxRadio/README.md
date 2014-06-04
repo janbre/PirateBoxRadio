@@ -36,7 +36,7 @@ echo "icecast:x:200:" >> /etc/group
 echo "icecast:*:200:200:nobody:/var:/bin/ash" >> /etc/passwd
 ```
 
-At this point you should take a look at the supplied ices.xml and icecast.xml config files. If you want to keep the default settings you don't need to do anything, but if you don't want to store the logs in /mnt/usb/log you need to change the log path in both files. Also, you might want to change the password for the icecast server, but that's up to you.
+At this point you should take a look at the supplied ices.xml and icecast.xml config files. If you want to keep the default settings you don't need to do anything, but if you don't want to store the logs in ```/mnt/usb/log``` you need to change the log path in both files. Also, you might want to change the password for the icecast server, but that's up to you.
 
 In ices.xml, look for the following section:
 ``` xml
