@@ -7,8 +7,10 @@ As of now, only .ogg files is playable... that means NO MP3s!!! I might try and 
 
 ---END---
 
-For those of you who don't feel all that comfortable on the command line or when manually editing configuration files, or you don't want to spend the time setting it all up manually, there's a simple script that will set it all up for you. Just download the archive, extract it and place it on the USB-stick you use with your PirateBox.
-The archive file contains all the needed packages, a setup script, a folder for storing logs and configuration files for ices and icecast. If you don't feel comfortable at the command line or by manually editing configuration files, just run the included setup script and you'll be good to go. This tutorial is meant for those who want to do the setup manually.
+For those of you who don't feel all that comfortable on the command line or when manually editing configuration files, or you don't want to spend the time setting it all up manually, there's a simple script that will set it all up for you. Just download the archive, extract it and place it on the USB-stick you use with your PirateBox. The archive file contains all the needed packages, a setup script, a folder for storing logs and configuration files for ices and icecast. 
+
+#### Using the setup script
+Log in to your PirateBox and navigate to the PirateBoxRadio-folder. If you placed it directly on the USB-stick the following command should do the trick: ```cd /mnt/usb/PirateBoxRadio```. Once there, execute the script with ```./setup.sh``` wait for it to finish and then move on to "Add some tunes" near the bottom of this tutorial.
 
 #### Getting started
 First you need to install some packages. You can download them from this repo or directly from OpenWrt at http://downloads.openwrt.org/snapshots/trunk/ar71xx/packages/
