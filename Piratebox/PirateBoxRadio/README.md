@@ -52,5 +52,26 @@ See where it says playlist? Guess what that line does. Correct! It tells ices wh
 
 The rest of the file is basically just giving your pirate radio channel a name, description, genre etc. Nothing you need to change unless you absolutely want to. 
 
+#### Add some tunes
+Now we're almost done! But we need to add some music! If you don't have any .ogg files at hand, you can download an awesome CC-licensed song which I've converted to .ogg here https://mega.co.nz/#!8skFTBRB!1ZB7himQzPXxnHs5MXtzVg4_UPir4COQXDQNhCCohUI 
+Original can be found here http://www.jamendo.com/en/artist/352184/conway-hambone and license here https://creativecommons.org/licenses/by-sa/3./0 
+Place it in /mnt/usb/PirateBox/Shared since you want to share it with the world. Now run the following command which will find all .ogg files and list their locations in playlist1.txt:
+```
+find /mnt/usb -name "*.ogg" > /mnt/usb/playlist1.txt
+```
+If you've decided to place your placelist somewhere else, or named it differently, adjust accordingly (the ices.xml file... remember?)
+
 #### Let's stream some music!
-Now we're almost done. Last thing to do is add some music! 
+Now you've got about 10 seconds left of work to do before you can listen to some sweet, sweet locally streamed music.
+First, start the icecast server and ices client with the following commands:
+```
+icecast -b -c icecast.xml
+ices ices.xml
+```
+That's it! Now you can use e.g. VLC to open the network stream http://192.168.1.1:8000/one.ogg 
+Now relax, lean back, and enjoy the melodies
+
+
+Any problems, questions, complaints, interesting new profanities or anything else, drop me a PM on the forum, shoot me a mail at piratebox@crossingrubicon.eu or light a fire and hope that I notice your smoke signals. 
+
+
