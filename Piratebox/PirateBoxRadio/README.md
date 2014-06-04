@@ -1,3 +1,4 @@
+##### Getting started
 You can either download the packages yourself, or download an archive from my GitHub page, the ones you need are listed in the attached text file. I recommend downloading the archive, unzipping it and placing it on the USB-drive before connecting the drive to your PirateBox and powering it up... it contains all the needed packages as well as basic configuration files for icecast and ices
 packages needed:
 - libshout
@@ -16,6 +17,7 @@ packages needed:
 - libvorbisidec
 - librt
 
+#### Installing needed packages
 There's no way all this is going to fit on rootfs, but luckily we have access to external storage on the USB-drive! Let's install these packages there with opkg install -d ext PACKAGES
 
 You'll probably get the following error message at the end of the opkg-output, but just ignore it: 
@@ -24,6 +26,7 @@ You'll probably get the following error message at the end of the opkg-output, b
  *opkg_configure: kmod-sound-core.postint returned 127
 ```
 
+#### Configuring icecast and ices
 Now that we've got everything installed, we can start configuring it. But first, let's add a user and group for the icecast server since it refuses to run as root
 Execute the following two commands to add a user and group "icecast" 
 ```
@@ -49,4 +52,5 @@ See where it says playlist? Guess what that line does. Correct! It tells ices wh
 
 The rest of the file is basically just giving your pirate radio channel a name, description, genre etc. Nothing you need to change unless you absolutely want to. 
 
+#### Let's stream some music!
 Now we're almost done. Last thing to do is add some music! 
