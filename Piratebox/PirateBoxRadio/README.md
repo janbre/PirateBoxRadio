@@ -2,7 +2,7 @@
 
 This repo contains everything needed to get ices and icecast working on your TP-Link MR3020 or WR703N PirateBox, turning it into a PirateBoxRadio.
 You should consider this to be a pre-alpha, since I've just followed some tutorials for getting ices and icecast to work together and have basically no idea what they actually do.
-I haven't done any testing over prolonged time periods to see if it's stable enough to keep on running for hours on end. I have only tested with two (2) connected clients so I don't know how many clients can connect and listen at the same time.
+I haven't done any testing over prolonged time periods to see if it's stable enough to keep on running for hours on end. I have only tested with two connected clients so I don't know how many clients can connect and listen at the same time.
 As of now, only .ogg files is playable... that means NO MP3s!!! I might try and get MP3 working, but I have no plans for it at the moment. I support open formats and standards, so I want my PirateBox to stream music that is free in every way.
 
 ---END---
