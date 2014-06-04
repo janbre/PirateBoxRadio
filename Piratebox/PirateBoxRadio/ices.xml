@@ -5,7 +5,7 @@
   <pidfile>/var/run/icecast/ices1.pid</pidfile>
 
   <!-- LOGGING -->
-  <logpath>/mnt/usb/log/icecast</logpath>
+  <logpath>/mnt/usb/PirateBoxRadio/log/icecast</logpath>
   <logfile>ices1.log</logfile>
   <logsize>2048</logsize>
   <loglevel>3</loglevel>
@@ -21,7 +21,7 @@
     </metadata>
     <input>
       <param name="type">basic</param>
-      <param name="file">/mnt/usb/playlist1.txt</param>
+      <param name="file">/mnt/usb/PirateBoxRadio/playlist1.txt</param>
       <param name="random">1</param>
       <param name="once">0</param>
       <param name="restart-after-reread">1</param>

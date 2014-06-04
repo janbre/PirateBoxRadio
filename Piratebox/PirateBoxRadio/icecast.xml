@@ -30,7 +30,7 @@
     <basedir>/opt/icecast/latest/share/icecast</basedir>
     <webroot>/opt/icecast/latest/share/icecast/web</webroot>
     <adminroot>/opt/icecast/latest/share/icecast/admin</adminroot>
-    <logdir>/mnt/usb/log/icecast</logdir>
+    <logdir>/mnt/usb/PirateBoxRadio/log/icecast</logdir>
     <pidfile>/var/run/icecast/icecast.pid</pidfile>
     <alias source="/" dest="/status.xsl"/>
   </paths>
