@@ -90,6 +90,6 @@ Relax, lean back, and enjoy the melodies.
 
 
 
-Any problems, questions, complaints, interesting new profanities or anything else, drop me a PM on the forum, shoot me a mail at piratebox@crossingrubicon.eu or light a fire and hope that I notice your smoke signals. 
+Any problems, questions, complaints, interesting new profanities or anything else, drop me a PM on the forum or light a fire and hope that I notice your attempted smoke signals. 
 
 
