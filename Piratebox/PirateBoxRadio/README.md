@@ -79,7 +79,7 @@ Please note that if you only have one track in your playlist, ices will exit aft
 
 #### Let's stream some music!
 Now you've got about 10 seconds left of work to do before you can listen to some sweet, sweet locally streamed music.
-First, start the icecast server and ices client with the following commands (assumes you're in the folder where the configuration files are located. If not, adjust accordingly):
+Assuming you're in the folder where the configuration files are located we can now start icecast and ices with the following commands:  
 ```
 icecast -b -c icecast.xml
 ices ices.xml
