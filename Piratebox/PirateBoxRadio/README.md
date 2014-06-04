@@ -1,4 +1,4 @@
-##### Getting started
+#### Getting started
 You can either download the packages yourself, or download an archive from my GitHub page, the ones you need are listed in the attached text file. I recommend downloading the archive, unzipping it and placing it on the USB-drive before connecting the drive to your PirateBox and powering it up... it contains all the needed packages as well as basic configuration files for icecast and ices
 packages needed:
 - libshout
