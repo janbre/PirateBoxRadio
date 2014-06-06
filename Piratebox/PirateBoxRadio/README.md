@@ -23,10 +23,8 @@ You'll need the following packages (not listing complete names, only what's need
 - alsa-lib
 - kmod-sound-core
 - kmod-input-core
-- kernel_3.10
 - icecast
 - libxslt
-- libxml2_2.9
 - libcurl
 - libpolarssl
 - libvorbisidec
@@ -35,10 +33,10 @@ You'll need the following packages (not listing complete names, only what's need
 #### Installing needed packages
 There's no way all this is going to fit on rootfs, but luckily we have access to external storage on the USB-drive. Assuming you've placed the packages in a folder "packages" Let's install them with ```opkg install -d ext packages/*```
 
-You'll probably get the following error message at the end of the opkg-output, but just ignore it: 
+You'll probably get the following error messages at the end of the opkg-output, but just ignore it: 
 ```
- *pkg_run_script: package "kmod-sound-core" postinst script returned status 127 
- *opkg_configure: kmod-sound-core.postint returned 127
+sed: 19-input-core: No such file or directory
+sed: 30-sound-core: No such file or directory
 ```
 
 #### Configuring icecast and ices
@@ -52,6 +50,7 @@ echo "icecast:*:200:200:icecast:/mnt/usb:/bin/ash" >> /etc/passwd
 ```
 
 At this point you should take a look at the supplied ices.xml and icecast.xml config files. If you want to keep the default settings you don't need to do anything, but if you don't want to store the logs in ```/mnt/usb/PirateBoxRadio/log``` you need to change the log path in both files. Also, you might want to change the password for the icecast server, but that's up to you.
+The zip-file already contains a folder for the logs, but if you're not using the folder structure I've set up, or decide to store the logs somewhere else, remember to create the required folders with this command ```mkdir -p log/icecast```. Otherwise, both icecast and ices will complain about missing folders. 
 
 In ices.xml, look for the following section:
 ``` xml
