@@ -5,4 +5,3 @@ echo "Adding user icecast to /etc/passwd"
 echo "icecast:*:200:200:icecast:/mnt/usb:/bin/ash" >> /etc/passwd
 echo "Installing required packages"
 opkg install -d ext packages/*
-echo "Just ignore the error message above"
