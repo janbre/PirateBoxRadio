@@ -14,7 +14,7 @@ For those of you who don't feel all that comfortable on the command line or when
 Log in to your PirateBox and navigate to the PirateBoxRadio-folder. If you placed it directly on the USB-stick the following command should do the trick: ```cd /mnt/usb/PirateBoxRadio```. Once there, execute the script with ```./setup.sh``` wait for it to finish and then move on to "Add some tunes" near the bottom of this tutorial.
 
 #### Getting started
-First you need to install some packages. You can download them from this repo or directly from OpenWrt at http://downloads.openwrt.org/snapshots/trunk/ar71xx/packages/
+First you need to install some packages. You can download them from this repo or directly from OpenWrt at http://downloads.openwrt.org/attitude_adjustment/12.09/ar71xx/generic/packages/
 You'll need the following packages (not listing complete names, only what's needed to locate them with CTRL+F):
 - libshout
 - ices
