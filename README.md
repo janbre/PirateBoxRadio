@@ -111,8 +111,10 @@ That's it! Now you can use e.g. VLC to open the network stream http://192.168.1.
 
 Relax, lean back, and enjoy the melodies.
 
+If more music is added to the Shared-folder, or wherever you choose to
+place the files, just run the find-command, mentioned in the previous
+section, again and your playlist will be updated with the new files.
 
-
-Any problems, questions, complaints, interesting new profanities or anything else, drop me a PM on the forum or light a fire and hope that I notice your attempted smoke signals. 
+Any problems, questions, complaints, interesting new profanities or anything else, drop me a PM on the forum.
 
 
