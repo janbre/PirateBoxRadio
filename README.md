@@ -31,7 +31,7 @@ You'll need the following packages (not listing complete names, only what's need
 - librt
 
 The dependencies between the different packages are shown below
-
+'''
 icecast
  |
   ----- libcurl
@@ -52,6 +52,7 @@ ices
          |        ----- kmod-input-core
          |
           ----- librt
+'''
 
 #### Installing necessary packages
 There's no way all this is going to fit on rootfs, but luckily we have access to external storage on the USB-drive. Assuming you've placed the packages in a folder "packages" Let's install them with ```opkg install -d ext packages/*```
