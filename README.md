@@ -8,6 +8,9 @@ As of now, only .ogg files is playable... that means NO MP3s!!! I might try and 
 
 For those of you who don't feel all that comfortable on the command line or when manually editing configuration files, or you don't want to spend the time setting it all up manually, there's a simple script that will set it all up for you. Just download the archive (PirateBoxRadio.zip), extract it and place it on the USB-stick you use with your PirateBox. The archive file contains all the needed packages, a setup script, a folder for storing logs and configuration files for ices and icecast. 
 
+This tutorial is partly based on this wonderful Icecast tutorial: http://karellen.blogspot.no/2011/12/streaming-audio-server-with-icecast.html
+You'll find lots more details there if you want to figure out how to configure Icecast and ices yourself
+
 ---END IMPORTANT---
 
 #### Using the setup script
@@ -110,7 +113,8 @@ Assuming you're in the folder where the configuration files are located we can n
 icecast -b -c icecast.xml
 ices ices.xml
 ```
-That's it! Now you can use e.g. VLC to open the network stream http://192.168.1.1:8000/one.ogg 
+That's it! Now you can use e.g. VLC to open the network stream http://pirateboxip:8000/one.ogg
+(Please note that pirateboxip is, surprisingly enough, the IP-address of your PirateBox. Mine is 192.168.1.1, but yours might be different. one.ogg is the name of the radio station, you can change this in ices.xml)
 
 Relax, lean back, and enjoy the melodies.
 
